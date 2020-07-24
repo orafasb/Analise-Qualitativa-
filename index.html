@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="./css/style.css" rel="stylesheet">
+
+  <title>GrupoServices</title>
+</head>
+<h1>Analise Qualitativa!</h1>
+
+</head>
+
+<body>
+  <div id="chartdiv"></div>
+
+  <div class="container-sm" id="navBar">
+    <nav class="navbar navbar-light bg-light">
+      <form id="formulario" class="form-inline">
+        <input id="input" class="form-control mr-sm-2" placeholder="Digite o UF" required="required" type="text"
+          title="Digite a UF">
+        <button id="button" class="btn btn-outline-success my-2 my-sm-0" type="button">Buscar</button>
+        <datalist id="historico">
+          <option value="PR"></option>
+          <option value="SC"></option>
+          <option value="SP"></option>
+        </datalist>
+      </form>
+    </nav>
+  </div>
+
+  <div class="alert alert-info" id="alert"> </div>
+
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/dark.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
